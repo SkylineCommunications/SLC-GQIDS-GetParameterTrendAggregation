@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{5A6CCBCE-D0BE-4485-8958-C9E69731264D}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{6D03DF3E-4FFE-44B3-9C9C-227A5DCDBF91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{D504C693-0FA4-4440-AF19-5171563C703D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{82EEAFDC-A9D3-4FC6-BBFF-23ACA378781D}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{327C53E8-2D34-42E9-8601-441F48AC486A}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{5635C46F-E43C-4E5D-AB1E-DB263657B11D}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Get parameter trend aggregation", "Get parameter trend aggregation", "{F2DBE884-27AF-4818-9255-E54D061DB9BB}"
+	ProjectSection(SolutionItems) = preProject
+		Get parameter trend aggregation.xml = Get parameter trend aggregation.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{2D41D77F-6702-4C71-B8DE-D2A6809C435F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Get parameter trend aggregation_1", "Get parameter trend aggregation_1\Get parameter trend aggregation_1.csproj", "{0B19EEE2-533C-4093-98F1-A1F70B631471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B19EEE2-533C-4093-98F1-A1F70B631471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B19EEE2-533C-4093-98F1-A1F70B631471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B19EEE2-533C-4093-98F1-A1F70B631471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B19EEE2-533C-4093-98F1-A1F70B631471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82EEAFDC-A9D3-4FC6-BBFF-23ACA378781D} = {D504C693-0FA4-4440-AF19-5171563C703D}
+		{5635C46F-E43C-4E5D-AB1E-DB263657B11D} = {5A6CCBCE-D0BE-4485-8958-C9E69731264D}
+		{F2DBE884-27AF-4818-9255-E54D061DB9BB} = {6D03DF3E-4FFE-44B3-9C9C-227A5DCDBF91}
+		{2D41D77F-6702-4C71-B8DE-D2A6809C435F} = {F2DBE884-27AF-4818-9255-E54D061DB9BB}
+		{0B19EEE2-533C-4093-98F1-A1F70B631471} = {2D41D77F-6702-4C71-B8DE-D2A6809C435F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CCA7858-4A27-4431-855B-6652B4B18A3E}
+	EndGlobalSection
+EndGlobal
